@@ -1,0 +1,61 @@
+package com.flights.cs442.dao;
+
+public class Customer {
+	private int cid;
+	private String cname;
+	private String email;
+	private String address;
+	private String password;
+	
+	public Customer(int cid, String cname, String email, String address, String password) {
+		
+		this.cid = cid;
+		this.cname = cname;
+		this.email = email;
+		this.address = address;
+		this.password = password;
+	}
+	
+	public int getCid() {
+		return cid;
+	}
+	
+	public void setCid(int cid) {
+		this.cid = cid;
+	}
+	
+	public String getCname() {
+		return cname;
+	}
+	
+	public void setCname(String cname) {
+		this.cname = cname;
+	}
+	
+	public String getEmail() {
+		return email;
+	}
+	
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	
+	public String getAddress() {
+		return address;
+	}
+	
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	
+	public String getPassword() {
+		return password;
+	}
+	
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	
+	
+	
+}

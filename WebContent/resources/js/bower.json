@@ -1,0 +1,22 @@
+{
+  "name": "bower",
+  "authors": [
+    "= <cr7boulos@gmail.com>"
+  ],
+  "description": "CS442 bower cofig",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "eonasdan-bootstrap-datetimepicker": "^4.17.43",
+    "bootstrap-select": "^1.12.1"
+  }
+}

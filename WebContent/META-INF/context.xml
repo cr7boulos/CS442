@@ -1,0 +1,12 @@
+<Context>
+<!-- change this file to set up the password, username, and url of the database -->
+
+<!-- copied the following code from here: https://tomcat.apache.org/tomcat-8.5-doc/jndi-datasource-examples-howto.html#MySQL_DBCP_Example and tweaked it -->
+<!-- This sets up the database configuration -->
+
+	<Resource name="jdbc/flights" auth="Container" type="javax.sql.DataSource"
+		maxTotal="100" maxIdle="30" maxWaitMillis="10000" username="root"
+		password="danielboulos" driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://localhost:3306/bestflights" />
+
+</Context>
